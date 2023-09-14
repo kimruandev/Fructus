@@ -28,7 +28,7 @@ struct SettingsLabelView: View {
 
 struct SettingsLabelView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsLabelView(labelText: "Fructus", labelImage: "info.circl")
+        SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
             .previewLayout(.sizeThatFits)
             .padding()
     }
