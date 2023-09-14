@@ -11,6 +11,9 @@
 		B1A961CA2AB0E2B100B19CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A961C92AB0E2B100B19CF2 /* ContentView.swift */; };
 		B1A961CC2AB0E2B300B19CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A961CB2AB0E2B300B19CF2 /* Assets.xcassets */; };
 		B1A961CF2AB0E2B300B19CF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A961CE2AB0E2B300B19CF2 /* Preview Assets.xcassets */; };
+		B1A961D92AB0E7C400B19CF2 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A961D82AB0E7C400B19CF2 /* FruitCardView.swift */; };
+		B1A961DB2AB0EBE700B19CF2 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A961DA2AB0EBE700B19CF2 /* StartButtonView.swift */; };
+		B1A961DD2AB2C32B00B19CF2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A961DC2AB2C32B00B19CF2 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		B1A961C92AB0E2B100B19CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1A961CB2AB0E2B300B19CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1A961CE2AB0E2B300B19CF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1A961D82AB0E7C400B19CF2 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		B1A961DA2AB0EBE700B19CF2 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		B1A961DC2AB2C32B00B19CF2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		B1A961BB2AB0E2B100B19CF2 = {
 			isa = PBXGroup;
 			children = (
+				B1A961D62AB0E76C00B19CF2 /* Products */,
 				B1A961C62AB0E2B100B19CF2 /* Fructus */,
 				B1A961C52AB0E2B100B19CF2 /* Products */,
 			);
@@ -51,8 +58,8 @@
 		B1A961C62AB0E2B100B19CF2 /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
-				B1A961C72AB0E2B100B19CF2 /* FructusApp.swift */,
-				B1A961C92AB0E2B100B19CF2 /* ContentView.swift */,
+				B1A961D72AB0E78D00B19CF2 /* View */,
+				B1A961D52AB0E72300B19CF2 /* App */,
 				B1A961CB2AB0E2B300B19CF2 /* Assets.xcassets */,
 				B1A961CD2AB0E2B300B19CF2 /* Preview Content */,
 			);
@@ -65,6 +72,32 @@
 				B1A961CE2AB0E2B300B19CF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1A961D52AB0E72300B19CF2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B1A961C72AB0E2B100B19CF2 /* FructusApp.swift */,
+				B1A961C92AB0E2B100B19CF2 /* ContentView.swift */,
+				B1A961DC2AB2C32B00B19CF2 /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B1A961D62AB0E76C00B19CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		B1A961D72AB0E78D00B19CF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1A961D82AB0E7C400B19CF2 /* FruitCardView.swift */,
+				B1A961DA2AB0EBE700B19CF2 /* StartButtonView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A961D92AB0E7C400B19CF2 /* FruitCardView.swift in Sources */,
+				B1A961DB2AB0EBE700B19CF2 /* StartButtonView.swift in Sources */,
 				B1A961CA2AB0E2B100B19CF2 /* ContentView.swift in Sources */,
+				B1A961DD2AB2C32B00B19CF2 /* OnboardingView.swift in Sources */,
 				B1A961C82AB0E2B100B19CF2 /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
